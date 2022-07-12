@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu&display=swap');
+.App {
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  margin: 10px;
+  height: 100px;
+}
+
+.App:focus-within{
+  border: thin solid lightskyblue;
+  box-shadow: 0px 0px 2px 1px lightskyblue;
+}
+
+.text-editor{
+  /*font-family: 'Roboto Slab', serif;*/
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+}
+
+.text-editor p{
+  margin: 0px;
+  padding: 0px;
+}
+.text-editor h1{
+  margin: 2px;
+  padding: 0px;
+}
+
+.text-editor h2{
+  margin: 2px;
+  padding: 0px;
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+  content:attr(data-text);
+  color: darkgrey;
+}
+
+.tippy-box{
+  background-color: whitesmoke !important;
+}
+
+.tippy-arrow{
+  color: whitesmoke !important;
+}
+

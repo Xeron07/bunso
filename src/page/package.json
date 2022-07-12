@@ -1,0 +1,16 @@
+{
+  "name": "tag-input-field",
+  "version": "0.0.1",
+  "description": "Custom input field with tag (curly brace) input",
+  "main": "CustomizeTextField.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xeron07",
+  "license": "ISC",
+  "dependencies": {
+    "@tippyjs/react": "^4.2.6",
+    "emoji-picker-react": "^3.5.1",
+    "react-search-autocomplete": "^7.2.2"
+  }
+}
