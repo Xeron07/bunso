@@ -1,7 +1,8 @@
+import React,{useState} from "react";
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
-import {useState} from "react";
 import bracket from "../utility/img/bracket.png";
+
 
 import SearchItem from "./SearchItem";
 const BracketSelector=(props)=>{

@@ -1,6 +1,5 @@
 
-import "./App.css";
-import CustomTextField from "./page/CustomizeTextField";
+import {CustomTextField} from "tag-input-field/index";
 function App() {
 const handleChange=(val)=>{
   console.log(val);

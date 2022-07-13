@@ -1,5 +1,5 @@
+import React,{useState} from "react";
 import Picker from 'emoji-picker-react';
-import {useState} from "react";
 import Tippy from '@tippyjs/react';
 import emoji from "../utility/img/emoji.png";
 
